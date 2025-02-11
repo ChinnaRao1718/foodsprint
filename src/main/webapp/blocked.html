@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Blocked</title>
+    <style>
+        /* General Reset */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Blocked Message Container */
+        .blocked-container {
+            text-align: center;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        /* Blocked Icon */
+        .blocked-icon {
+            font-size: 50px;
+            color: #ff4d4d;
+            margin-bottom: 20px;
+        }
+
+        /* Blocked Title */
+        .blocked-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        /* Blocked Message */
+        .blocked-message {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        /* Contact Support Link */
+        .contact-support {
+            font-size: 14px;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .contact-support:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="blocked-container">
+        <!-- Blocked Icon -->
+        <div class="blocked-icon">⛔</div>
+
+        <!-- Blocked Title -->
+        <div class="blocked-title">Account Blocked</div>
+
+        <!-- Blocked Message -->
+        <div class="blocked-message">
+            Your account has been temporarily blocked due to too many failed login attempts.
+            Please try again after 5 minutes or contact support for assistance.
+        </div>
+
+        <!-- Contact Support Link -->
+        <a href="mailto:support@example.com" class="contact-support">Contact Support</a>
+    </div>
+</body>
+</html>
